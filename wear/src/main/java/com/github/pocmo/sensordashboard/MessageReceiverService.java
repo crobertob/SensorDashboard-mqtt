@@ -16,7 +16,7 @@ import com.google.android.gms.wearable.MessageEvent;
 import com.google.android.gms.wearable.WearableListenerService;
 
 public class MessageReceiverService extends WearableListenerService {
-    private static final String TAG = "SensorDashboard/MessageReceiverService";
+    private static final String TAG = "MessageReceiverService";
 
     private DeviceClient deviceClient;
 

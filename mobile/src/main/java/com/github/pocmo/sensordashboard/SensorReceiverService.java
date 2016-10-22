@@ -43,8 +43,8 @@ auth-token=asdasdasdsadsadas
  */
 
     private static MqttClient client = null;
-    public  String clientId = "d:dsd6xv:MOTO:aabbcc009911";
-    public String org = "dsd6xv";
+    public  String clientId = "d:7tnl8s:hr:moto";
+    public String org = "7tnl8s";
     public String SETTINGS_MQTT_SERVER = ".messaging.internetofthings.ibmcloud.com";
     public String SETTINGS_MQTT_PORT = "1883";
     public String SETTINGS_USERNAME = "use-token-auth";
@@ -54,7 +54,7 @@ auth-token=asdasdasdsadsadas
     float myGZ = 0;
     float myGY = 0;
     float myGX = 0;
-    public String SETTINGS_TOKEN = "uPyR6Wu?oOTJF-YfbH"; ///auth-token=uPyR6Wu?oOTJF-YfbH
+    public String SETTINGS_TOKEN = "lq@POED*nBTz&iZzaa"; ///auth-token=uPyR6Wu?oOTJF-YfbH
     float msgcnt = 0;
 
     public void sendMQTTData( int sensor, float[] sensorValues) {

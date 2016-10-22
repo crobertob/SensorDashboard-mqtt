@@ -29,7 +29,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
 public class RemoteSensorManager {
-    private static final String TAG = "SensorDashboard/RemoteSensorManager";
+    private static final String TAG = "RemoteSensorManager";
     private static final int CLIENT_CONNECTION_TIMEOUT = 15000;
 
     private static RemoteSensorManager instance;
